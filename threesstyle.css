@@ -261,6 +261,52 @@ h2 {
 	color: #fff;
 	font-weight: 700;
 }
+.headimg {
+	background-image: url("img/mapo.jpg");
+	height: 25rem;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-thumbnail {
+	max-width: 100%;
+	/* margin-bottom: 2rem; */
+}
+/* .container {
+	position: relative;
+	text-align: center;
+} */
+.pagination {
+	margin-bottom: 5rem;
+}
+.pagination a {
+	margin: 0 .2rem;
+}
+.page-link {
+	color: #1a1a1a;
+	background-color: #D8EBEB;
+}
+/* .page-item.disabled .page-link {
+  color: #868e96;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #CEFFCE;
+  border-color: #718393;
+} */
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #15845d;
+  border-color: #a7f1d7;
+}
+.page-link:focus, .page-link:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #21d192;
+  border-color: #a7f1d7;
+}
 
 .aboutpic {
 	position: relative;
