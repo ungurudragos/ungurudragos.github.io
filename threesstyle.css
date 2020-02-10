@@ -13,7 +13,9 @@ body {
   transition: background-color 200ms linear;
 }
 
-
+.gallerypadding {
+padding-top: 5rem;
+}
 
 .navbar-brand img {
   height: 3rem;
@@ -306,6 +308,86 @@ h2 {
   text-decoration: none;
   background-color: #21d192;
   border-color: #a7f1d7;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	z-index: 10;
+}
+.great {
+  color: black;
+  padding-top: 4rem;
+}
+.great2 {
+  margin-bottom: 2rem;
+}
+
+
+
+.carousel-item {
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+}
+.table {
+  margin: 0 auto;
+  max-width: 50%;
+}
+.boop {
+  text-decoration: none!important;
+}
+
+.clasa {
+  padding-right: 0;
+  padding-left: 0;
+}
+.clasa2 {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	width: max-content;
+	height: max-content;
+	box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+}
+.big {
+  font-size: 3.5rem;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.carousel-caption h1 {
+	/* font-family: 'Reenie Beanie', cursive; */
+	font-family: 'Amatic SC', cursive;
+	position: relative;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	top: -9rem;
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  padding-bottom: 1rem;
+	/* opacity: 0.6; */
+}
+
+
+.tbl {
+  margin-bottom: 0;
+	margin-top: 3rem;
+	padding: 6rem;
+}
+.img-fluid {
+  padding-right: 0;
 }
 
 .aboutpic {
