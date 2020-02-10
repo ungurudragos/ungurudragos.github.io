@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="threesstyle.css">
+
+<script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        var $aaa = $(".aaa");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $aaa.height());
+        if ($(window).width() < 480) {
+          var exemplu = $(".bbb");
+   $nav.toggleClass('scrolled', $(this).scrollTop() > exemplu.height());
+   console.log(exemplu.height());
+}
+else {
+   // alert('More than 960');
+}
+      });
+    });
+</script>
+  </head>
+  <body data-spy="scroll" data-target="#menu">
+
+    <div id="home">
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logow.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="threes2.html">Destinations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#deals">Deals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="threes4.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#news">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+<div class="parallax-image">
+  <div class="row h-100">
+    <div class="col-md-12 align-self-center">
+      <div class="text-center">
+      <h1 class="animated flipInX">Oh, the places you'll go.</h1>
+      <p class="first text-center animated flipInX">Traveling made easy and fun.</p>
+      <a class="btn btn-outline-light btn-lg animated fadeInLeft headingbtn" href="threes2.html">Destinations</a>
+      <a class="btn btn-outline-light btn-lg animated fadeInRight headingbtn" href="#contact">Contact</a>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <div class="container-fluid padding bbb">
+      <div class="row text-center padding">
+    		<div class="col-xs-12 col-sm-6 col-md-4 one">
+    			<i class="fas fa-check"></i>
+    			<h3>Best price guarantee</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    		</div>
+    		<div class="col-xs-12 col-sm-6 col-md-4 two">
+    			<i class="fas fa-bus"></i>
+    			<h3>235 Destinations</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    		</div>
+    		<div class="col-sm-12 col-md-4 three">
+    			<i class="fas fa-phone"></i>
+    			<h3>24/7 Phone support</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    		</div>
+    	</div>
+    	<!-- <hr class="my-4"> -->
+    </div>
+
+    <div class="container-fluid padding">
+    	<div class="row padding2">
+    		<div class="col-md-12 text-center">
+    			<h2>Travel made easier!</h2>
+    		<p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+    		<p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of moile traffic now accounts for more than half of total internet traffic.</p>
+    		<p>It can also display the web page differently depending on the screen size or viewing device.</p>
+        <a href="threes2.html" class="btn btn-secondary btn-lg">Check destinations!</a>
+
+    	</div>
+    </div>
+    </div>
+
+<div class="container padding2 aaa">
+  <h3 class="heading">Some of the best places we recommend</h3>
+  <div class="row text-center justify-content-center">
+    <div class="col-md-4">
+      <div class="card">
+          <img class="card-img-top rounded-circle" src="img/india2o.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Agra, India</h4>
+            <p class="card-text">Taj Mahal</p>
+            <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top rounded-circle" src="img/franceo.jpg">
+                  <div class="card-body">
+                    <h4 class="card-title">France</h4>
+                    <p class="card-text">Eiffel Tower</p>
+                    <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top rounded-circle" src="img/londono.jpg">
+                          <div class="card-body">
+                            <h4 class="card-title">London</h4>
+                            <p class="card-text">Big Ben</p>
+                            <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="card">
+                                <img class="card-img-top rounded-circle" src="img/romeo.jpg">
+                                  <div class="card-body">
+                                    <h4 class="card-title">Italy</h4>
+                                    <p class="card-text">Colosseum</p>
+                                    <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img class="card-img-top rounded-circle" src="img/usao.jpg">
+                                          <div class="card-body">
+                                            <h4 class="card-title">Arizona, United States</h4>
+                                            <p class="card-text">Grand Canyon</p>
+                                            <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <img class="card-img-top rounded-circle" src="img/peruo.jpg">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Peru</h4>
+                                                    <p class="card-text">Machu Picchu</p>
+                                                    <a href="#" class="btn btn-outline-secondary boom">See Details</a>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+            </div>
+            </div>
+
+  <div class="container-fluid imgeffects">
+  <h3 class="heading">What type of traveller are you?</h3>
+  <div class="gallery-wrap">
+    <div class="item item-1">
+      <h3 class="desc">City</h3>
+    </div>
+    <div class="item item-2">
+    <h3 class="desc">Nature</h3>
+    </div>
+    <div class="item item-3">
+      <h3 class="desc">Relaxing</h3>
+    </div>
+    <div class="item item-4">
+      <h3 class="desc">Culture</h3>
+    </div>
+    <div class="item item-5">
+      <h3 class="desc">Business</h3>
+    </div>
+  </div>
+ </div>
+
+ <!-- Footer -->
+ <div id="contact">
+
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div class="footerbarcolor">
+    <div class="container">
+
+      <div class="row py-4 d-flex align-items-center">
+
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"></i>
+          </a>
+          <a class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"></i>
+          </a>
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"></i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-youtube white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3 dark-grey-text">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Who are we?</h6>
+          <hr class="teal accent-3 mx-auto">
+          <p>We are a traveling agency from Romania founded in 2006 with the sole purpose of making your travelings better. DGTravel provides you with the best places to travel all over the world.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="teal accent-3 mx-auto">
+          <p>
+            <a class="dark-grey-text" href="#!">City</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="threes2.html">Destinations</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Deals</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">About</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="teal accent-3 mx-auto">
+          <p>
+            <a class="dark-grey-text" href="#!">Your Account</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Help</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="teal accent-3 mx-auto">
+          <p>
+            <i class="fas fa-home mr-3"></i>Cluj-Napoca, CJ 10012, RO</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@dgtravel.com</p>
+          <p>
+            <i class="fas fa-phone-square mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="end footer-copyright text-center text-white-50 py-3">© 2019 Copyright:
+      <a class="dark-grey-text" href="#"> DGTravel.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
